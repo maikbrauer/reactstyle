@@ -6,6 +6,7 @@ const Login = () => {
 
     function gotohub() {
         navigate('/')
+        window.location.reload(false);
     }
 
     return (

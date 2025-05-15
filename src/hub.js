@@ -2,9 +2,9 @@ import {useNavigate} from 'react-router-dom';
 
 const Hub = () => {
     import('./hub.css');
-            const navigate = useNavigate(); 
+            const navigate = useNavigate();
 
-function gotologin() {
+    function gotologin() {
         navigate('/login')
     }
 
