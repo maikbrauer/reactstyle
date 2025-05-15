@@ -7,7 +7,7 @@ const App = () => {
     return (
         <Router>
             <div className="app-container">
-                <title>VDK iTransfer</title>
+                <title>TEST App</title>
                 <Routes>
                     <Route path="/" element={<Hub />} />
                     <Route path="/login" element={<Login />} />

@@ -1,9 +1,8 @@
-import React, {useEffect} from 'react';
-import {redirect, useNavigate} from 'react-router-dom';
+import {useNavigate} from 'react-router-dom';
 
 const Hub = () => {
     import('./hub.css');
-    const navigate = useNavigate(); 
+            const navigate = useNavigate(); 
 
 function gotologin() {
         navigate('/login')

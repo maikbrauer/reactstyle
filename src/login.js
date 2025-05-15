@@ -1,12 +1,8 @@
-import React, { useState } from 'react';
-import {redirect, useNavigate} from 'react-router-dom';
+import {useNavigate} from 'react-router-dom';
 
 const Login = () => {
     import('./login.css');
-    const [username, setUsername] = useState('');
-    const [password, setPassword] = useState('');
     const navigate = useNavigate();
-
 
     function gotohub() {
         navigate('/')
